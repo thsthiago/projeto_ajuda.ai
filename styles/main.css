@@ -1,0 +1,38 @@
+:root {
+  --color-background-white: #fff;
+  --color-background-dark: #333333;
+  --color-text: #4F4E4E;
+  --color-gradient-one: #ff7a00;
+  --color-gradient-two: #ff00ff;
+  --color-gradient-three: #9800f9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+a{text-decoration: none;}
+
+.center {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white{background-color: var(--color-background-white)};
+.dark{background-color: var(--color-background-dark)};
