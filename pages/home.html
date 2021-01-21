@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="../dark_white/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
     <title>Home</title>
@@ -39,7 +40,7 @@
             <span class="bars-1"></span>
             <span class="bars-2"></span>
           </div>
-          <nav class="nav-mobile white">
+          <nav class="nav-mobile white-element">
             <ul>
               <li>
                 <a href="#">Fazer uma pergunta</a>
@@ -60,8 +61,8 @@
       <div class="center">
         <h1>Está com dificuldades para entender algum assunto? Tire suas dúvidas!</h1>
         <form>
-          <input type="text" name="pesquisa" placeholder="Procurar por dúvidas respondidas">
-          <button type="button" namee="procurar-pesquisa"><i class="fas fa-search"></i></button>
+          <input class="white-element" type="text" name="pesquisa" placeholder="Procurar por dúvidas respondidas">
+          <button type="button" namee="procurar-pesquisa"><i class="white-element fas fa-search"></i></button>
         </form>
       </div><!--center-->
     </section>
@@ -93,7 +94,7 @@
       <div class="center">
         <h1>Perguntas mais populares</h1>
         <div class="perguntas-populares">
-          <div class="pergunta white">
+          <div class="pergunta white-element">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend mi tellus, ut scelerisque arcu 
               tempus a. Integer id odio nec enim rhoncus volutpat a non augue.  
@@ -121,7 +122,7 @@
 
           </div><!--pergunta white-->
 
-          <div class="pergunta white">
+          <div class="pergunta white-element">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend mi tellus, ut scelerisque arcu 
               tempus a. Integer id odio nec enim rhoncus volutpat a non augue.
@@ -149,7 +150,7 @@
 
           </div><!--pergunta white-->
 
-          <div class="pergunta white">
+          <div class="pergunta white-element">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend mi tellus, ut scelerisque arcu 
               tempus a. Integer id odio nec enim rhoncus volutpat a non augue.
@@ -191,7 +192,7 @@
         <div class="top-contribuentes">
           <h1>Top 5 contribuentes</h1>
           <div class="contribuentes">
-            <div class="contribuente white">
+            <div class="contribuente white-element">
               <div class="flex">
                 <img class="foto-perfil" src="../images/perfil.svg" alt="">
                 <div class="descricao">
@@ -218,7 +219,7 @@
               </div><!--coracoes-estrelas-->
             </div><!--comtribuente-->
 
-            <div class="contribuente white">
+            <div class="contribuente white-element">
               <div class="flex">
                 <img class="foto-perfil" src="../images/perfil.svg" alt="">
                 <div class="descricao">
@@ -245,7 +246,7 @@
               </div><!--coracoes-estrelas-->
             </div><!--contribuente-->
 
-            <div class="contribuente white">
+            <div class="contribuente white-element">
               <div class="flex">
                 <img class="foto-perfil" src="../images/perfil.svg" alt="">
                 <div class="descricao">
@@ -272,7 +273,7 @@
               </div><!--coracoes-estrelas-->
             </div><!--contribuente-->
 
-            <div class="contribuente white">
+            <div class="contribuente white-element">
               <div class="flex">
                 <img class="foto-perfil" src="../images/perfil.svg" alt="">
                 <div class="descricao">
@@ -299,7 +300,7 @@
               </div><!--coracoes-estrelas-->
             </div><!--contribuente-->
 
-            <div class="contribuente white">
+            <div class="contribuente white-element">
               <div class="flex">
                 <img class="foto-perfil" src="../images/perfil.svg" alt="">
                 <div class="descricao">
@@ -334,14 +335,20 @@
       <div class="center">
         <h1>Top tags</h1>
         <div class="tags">
-          <a class="white" href="#">#Português</a>
-          <a class="white" href="#">#Matemática</a>
-          <a class="white" href="#">#JavaScritp</a>
-          <a class="white" href="#">#HTML</a>
-          <a class="white" href="#">#PHP</a>
+          <a class="white-element" href="#">#Português</a>
+          <a class="white-element" href="#">#Matemática</a>
+          <a class="white-element" href="#">#JavaScritp</a>
+          <a class="white-element" href="#">#HTML</a>
+          <a class="white-element" href="#">#PHP</a>
         </div>
       </div><!--center-->
     </section>
+
+    <div class="dark__white">
+      <div class="botao white"></div>
+      <i class="sol fas fa-sun"></i>
+      <i class="lua fas fa-moon"></i>
+    </div>
 
     <footer>
       <div class="line"></div>
@@ -352,5 +359,6 @@
 
     <script src="https://kit.fontawesome.com/e796b83976.js" crossorigin="anonymous"></script>
     <script src="../js/main.js"></script>
+    <script src="../dark_white/main.js"></script>
   </body>
 </html>
